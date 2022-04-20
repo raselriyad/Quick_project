@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #fff;
+    font-family: sans-serif;
+}
+img{
+    min-width: 100%;
+    height: auto;
+    display: block;
+}
+.container{
+    padding: 0 8.5%;
+}
+p{
+    font-size: 16px;
+}
+h1{
+    font-size: 45px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 35px;
+}
+h4{
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+/* ------------------- Common Css End -----------------------  */
+/* ----------------------- Header Start  */
+#header{
+    overflow: hidden;
+    border-bottom: 1px solid rgba(136, 136, 136, 0.336);
+}
+.header-content{}
+nav{
+    position: relative;
+}
+.logo{
+    float: left;
+}
+.logo img{
+    padding: 20px 0;
+}
+.menu{
+    width: 75%;
+    float: right;
+}
+.menu ul{
+    float: right;
+    display: flex;
+    align-items: center;
+
+}
+.menu ul li{}
+.menu ul li a{
+    display: inline-block;
+    padding: 30px 30px;
+    color: #3e4a6e;
+    transition: all .5s;
+}
+.menu ul li a:hover{
+    color: #0e6af1;
+}
+/* #header::after{
+    content: '';
+    display: block;
+    clear: both;
+    position: absolute;
+    top: 5%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: orange;
+    text-decoration: underline;
+    overflow: hidden;
+} */
+/* --------------- Header End  */
+/* -------------------------- Banner Start  */
+#banner-area{}
+.banner-content{
+    margin-top: 50px;
+}
+.banner-top{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.5;
+}
+.banner-top h1{
+    font-size: 50px;
+    color: #0f2656;
+
+}
+.banner-top h1 span{
+    color: #008aff;
+}
+.banner-top p{
+    color: rgb(85, 84, 84);
+    margin-top: 10px;
+}
+/* ---------- */
+.banner-middle{
+  
+}
+/* ------------ */
+.banner-bottom{
+    width: 67%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.banner-bottom .banner-text-left{
+    text-align: right;
+}
+.banner-bottom .banner-text-left h1{
+    font-weight: 700;
+    font-size: 50px;
+    color: #f15969;
+}
+.banner-bottom .banner-text-left p{
+    color: rgb(85, 84, 84);
+    line-height: 1.5;
+}
+
+.banner-bottom .banner-text-right{
+    text-align: left;
+}
+.banner-bottom .banner-text-right h1{
+    font-size: 50px;
+    color: #0e2556;
+}
+/* --------------- Banner End  */
+/* -------------------- Service Start  */
+#service-area{
+    padding: 70px 0;
+}
+.service-content{
+    display: flex;
+    justify-content: space-between;
+}
+.service-items{
+    width: 32%;
+}
+.service-items-1{
+    background: #fdebed;
+}
+.service-items-2{
+    background: #ebf9f4
+}
+.service-items-3{
+    background: #fff7e8;
+}
+.service-item{
+    padding: 45px 25px;
+}
+.service-item img{}
+.service-item h4{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.service-item p{
+    margin-top: 15px;
+    color: rgb(85, 84, 84);
+    line-height: 1.5;
+}
+/* --------------- Service End  */
+/* --------------------- Footer Start  */
+#footer-area{
+    background: #008aff;
+    padding: 30px 0;
+}
+.footer-content{
+    text-align: center;
+}
+.footer-content p{
+    color: rgb(85, 84, 84);
+    font-size: 14px;
+}
+.footer-content p span{
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 2px;
+}
+/* ----------------- footer End  */
